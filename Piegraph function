@@ -1,7 +1,7 @@
 ## Start of the function
 circle.segments <- function(filename="circle", proportions, grey.proportion="no", total.angle="", colors="", grey.color="grey") {
 	
-	if(grey.proportion=="no") {grey.proportion <- 0 ; gp <- TRUE }  # if there is no grey proportion specified
+	if(grey.proportion=="no") {grey.proportion <- 0 ; gp <- TRUE } else{gp <- FALSE} # if there is no grey proportion specified
 	
 	# colors
 	if(colors[1]==""){
