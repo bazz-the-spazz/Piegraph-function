@@ -8,7 +8,7 @@ Creates Piegraphs. Areas of segments are changed by varying the radius not the a
 
 *grey.proportion*: proportion of the grey area
 
-*total.angle*: angle of the circle which is not occupied by the grey area
+*total.angle*: angle of the segments which is not occupied by the grey area
 
 *colors*: Vector of colors of the proportions. Should be specified as character. If the vector is to long it also specify the grey color.
 
