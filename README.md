@@ -3,10 +3,15 @@ Creates Piegraphs. Areas of segments are changed by varying the radius not the a
 
 ## Arguments
 *filename*: name of the output svg file
+
 *proportions*: vector of the proportions of the pie
+
 *grey.proportion*: proportion of the grey area
+
 *total.angle*: angle of the circle which is not occupied by the grey area
+
 *colors*: Vector of colors of the proportions. Should be specified as character. If the vector is to long it also specify the grey color.
+
 *grey.color*: color of the grey area (when not overridden by an overlong *colors* argument)
 
 ## Examples
