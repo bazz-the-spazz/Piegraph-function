@@ -19,6 +19,7 @@ Creates Piegraphs. Areas of segments are changed by varying the radius not the a
 `circle.segments(filename = "circle", proportions = c(.7, .1, .15), grey.proportion = .05, colors =c("#C0C0C0", "#FFFF00", "#00FFFF"), grey.color = "#808000" ) `
 ### Plot with 5 proportion segments and a grey area
 The total angle of the segments is automatically increased to 225°
+
 `circle.segments("circle", proportions = c(3,2,3,1,1.5), grey.proportion = 3 )`
 ### Butterfly
 Creates a moving picture of a flying moth. Requires a svg viewer that updates the picture automatically.
