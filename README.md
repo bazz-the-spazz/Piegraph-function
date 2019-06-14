@@ -26,7 +26,7 @@ Creates a moving picture of a flying moth. Requires a svg viewer that updates th
 
  `for(k in 1:10){
    for(i in c(seq(220,140,-10), seq(140, 240, 20))){
-     circle.segments(filename = "circle", proportions = c(10:1, 1:10), grey.proportion = 10, total.angle = i)
+     circle.segments(filename = "circle", proportions = c(10:1, 1:10), grey.proportion = 10, total.angle = i);
      Sys.sleep(.2)
    }
  } `
